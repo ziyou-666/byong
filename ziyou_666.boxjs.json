@@ -150,7 +150,7 @@
                 "china_mobile_service"
             ],
             "author": "ChinaMobileDev",
-            "repo": "https://github.com/ChinaTelecomOperators/ChinaMobile",
+            "repo": "",
             "scripts": [
                 {
                     "name": "手动执行查询（⚠️ 执行前请确认配置正确）",
@@ -259,7 +259,7 @@
         "smzdm_sync_qinglong"
       ],
       "author": "@ziyou_666",
-      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/smzdm",
+      "repo": "",
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/smzdm.png",
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/smzdm.png"
@@ -436,7 +436,7 @@
         }
       ],
       "author": "@ziyou_666",
-      "repo": "https://github.com/Yuheng0101/X",
+      "repo": "",
       "icons": [
         "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/mini.png",
         "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/color.png"
