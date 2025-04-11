@@ -6,13 +6,13 @@
     "repo": "",
     "apps": [
         {
-            "id": "sliverkiss_sfsy",
+            "id": "ziyou_666_sfsy",
             "name": "顺丰速运",
-            "author": "@Sliverkiss",
+            "author": "@ziyou_666",
             "repo": "",
             "icons": [
-                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png",
-                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png"
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/sfexpress.png",
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/sfexpress.png"
             ],
             "keys": [
                 "sfsy_isActivity",
@@ -63,13 +63,13 @@
             ]
         },
         {
-            "id": "sliverkiss_mxbc",
+            "id": "ziyou_666_mxbc",
             "name": "蜜雪冰城",
-            "author": "@Sliverkiss",
+            "author": "@ziyou_666",
             "repo": "",
             "icons": [
-                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mxbc.png",
-                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mxbc.png"
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/mxbc.png",
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/mxbc.png"
             ],
             "keys": [
                 "mxbc_data"
@@ -86,13 +86,13 @@
             ]
         },
         {
-            "id": "sliverkiss_yuchenios",
+            "id": "ziyou_666_yuchenios",
             "name": "雨晨ios",
-            "author": "@Sliverkiss",
+            "author": "@ziyou_666",
             "repo": "",
             "icons": [
-                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png",
-                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png"
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/yuchenios.png",
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/yuchenios.png"
             ],
             "keys": [
                 "yuchenios_data"
@@ -109,13 +109,13 @@
             ]
         },
         {
-            "id": "sliverkiss_aliyun",
+            "id": "ziyou_666_aliyun",
             "name": "阿里云盘",
-            "author": "@Sliverkiss",
+            "author": "@ziyou_666",
             "repo": "",
             "icons": [
-                "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png",
-                "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png"
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/AliYunDrive.png",
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/AliYunDrive.png"
             ],
             "keys": [
                 "aliyun_data"
@@ -132,13 +132,13 @@
             ]
         },
         {
-            "id": "sliverkiss_quark",
+            "id": "ziyou_666_quark",
             "name": "夸克网盘",
-            "author": "@sliverkiss",
+            "author": "@ziyou_666",
             "repo": "",
             "icons": [
-                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png",
-                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png"
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/Quark.png",
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/Quark.png"
             ],
             "keys": [
                 "quark_user",
