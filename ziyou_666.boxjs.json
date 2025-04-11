@@ -245,6 +245,68 @@
                     "desc": "会员Cookie数据"
                 }
             ]
+        },
+    {
+      "id": "ziyou_666.smzdm",
+      "name": "ziyou_666_什么值得买",
+      "keys": [
+        "smzdm_cookie",
+        "smzdm_cookie_id",
+        "smzdm_signin",
+        "smzdm_mission",
+        "smzdm_lottery",
+        "smzdm_blackroom",
+        "smzdm_sync_qinglong"
+      ],
+      "author": "@ziyou_666",
+      "repo": "https://github.com/blackmatrix7/ios_rule_script/tree/master/script/smzdm",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/smzdm.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/smzdm.png"
+      ],
+      "scripts": [
+        {
+          "name": "执行每日签到与任务",
+          "script": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js"
         }
+      ],
+      "settings": [
+        {
+          "id": "smzdm_sync_qinglong",
+          "name": "同步数据到青龙面板",
+          "val": false,
+          "type": "boolean",
+          "desc": "将必要数据同步至青龙面板，以执行作业"
+        },
+        {
+          "id": "smzdm_signin",
+          "name": "执行每日签到",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "smzdm_mission",
+          "name": "执行每日任务",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "smzdm_lottery",
+          "name": "执行每日抽奖",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "smzdm_blackroom",
+          "name": "脚本运行时进行黑号检测",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        }
+      ]
+    }
     ]
 }
