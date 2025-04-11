@@ -1,0 +1,166 @@
+{
+    "id": "ziyou_666.sub",
+    "name": "ziyou_66自用签到脚本订阅",
+    "author": "@ziyou_666",
+    "icon": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sakura.png",
+    "repo": "",
+    "apps": [
+        {
+            "id": "sliverkiss_sfsy",
+            "name": "顺丰速运",
+            "author": "@Sliverkiss",
+            "repo": "",
+            "icons": [
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png",
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png"
+            ],
+            "keys": [
+                "sfsy_isActivity",
+                "sfsy_activity",
+                "sfsy_activityCode",
+                "sfsy_bee",
+                "sfsy_data"
+            ],
+            "settings": [
+                {
+                    "id": "sfsy_bee",
+                    "name": "是否开启采蜜任务",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": "默认关闭"
+                },
+                {
+                    "id": "sfsy_isActivity",
+                    "name": "是否开启活动任务",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": "默认关闭"
+                },
+                {
+                    "id": "sfsy_activity",
+                    "name": "活动id",
+                    "val": "",
+                    "type": "text",
+                    "autoGrow": true,
+                    "desc": "不知道是什么的可以留空"
+                },
+                {
+                    "id": "sfsy_activityCode",
+                    "name": "活动Code",
+                    "val": "",
+                    "type": "text",
+                    "autoGrow": true,
+                    "desc": "不知道是什么的可以留空"
+                },
+                {
+                    "id": "sfsy_data",
+                    "name": "会员数据",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id": "sliverkiss_mxbc",
+            "name": "蜜雪冰城",
+            "author": "@Sliverkiss",
+            "repo": "",
+            "icons": [
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mxbc.png",
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mxbc.png"
+            ],
+            "keys": [
+                "mxbc_data"
+            ],
+            "settings": [
+                {
+                    "id": "mxbc_data",
+                    "name": "会员Cookie数据",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "desc": "会员Cookie数据"
+                }
+            ]
+        },
+        {
+            "id": "sliverkiss_yuchenios",
+            "name": "雨晨ios",
+            "author": "@Sliverkiss",
+            "repo": "",
+            "icons": [
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png",
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png"
+            ],
+            "keys": [
+                "yuchenios_data"
+            ],
+            "settings": [
+                {
+                    "id": "yuchenios_data",
+                    "name": "会员Cookie数据",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "desc": "会员Cookie数据"
+                }
+            ]
+        },
+        {
+            "id": "sliverkiss_aliyun",
+            "name": "阿里云盘",
+            "author": "@Sliverkiss",
+            "repo": "",
+            "icons": [
+                "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png",
+                "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png"
+            ],
+            "keys": [
+                "aliyun_data"
+            ],
+            "settings": [
+                {
+                    "id": "aliyun_data",
+                    "name": "会员Cookie数据",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "desc": "会员Cookie数据"
+                }
+            ]
+        },
+        {
+            "id": "sliverkiss_quark",
+            "name": "夸克网盘",
+            "author": "@sliverkiss",
+            "repo": "",
+            "icons": [
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png",
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png"
+            ],
+            "keys": [
+                "quark_user",
+                "quark_data"
+            ],
+            "settings": [
+                {
+                    "id": "quark_user",
+                    "name": "当前获取ck对象",
+                    "val": "",
+                    "type": "text",
+                    "desc": "当前获取ck对象"
+                },
+                {
+                    "id": "quark_data",
+                    "name": "会员Cookie数据",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "desc": "会员Cookie数据"
+                }
+            ]
+        }
+    ]
+}
