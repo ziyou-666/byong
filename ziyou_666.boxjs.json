@@ -211,8 +211,8 @@
                 }
             ],
             "icons": [
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/8b/03/928b0371-20fc-288b-e4e4-05f48b7082c2/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/144x144.png",
-                "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/8b/03/928b0371-20fc-288b-e4e4-05f48b7082c2/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/144x144.png"
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/zgyd.png",
+                "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/zgyd.png"
             ]
         },
         {
@@ -261,8 +261,8 @@
       "author": "@ziyou_666",
       "repo": "",
       "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/smzdm.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/smzdm.png"
+        "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/Smzdm.png",
+        "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/Smzdm.png"
       ],
       "scripts": [
         {
@@ -315,8 +315,8 @@
       "script": "",
       "descs_html": [""],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/mi_sport.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/mi_sport.png"
+        "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/xmyd.png",
+        "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/xmyd.png"
       ],
       "keys": ["xmUsers", "xmPasswords", "xmMinStep", "xmMaxStep"],
       "settings": [
@@ -438,8 +438,8 @@
       "author": "@ziyou_666",
       "repo": "",
       "icons": [
-        "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/mini.png",
-        "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/color.png"
+        "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/xmbs.png",
+        "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/xmbs.png"
       ],
       "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/step.js"
     },
@@ -477,8 +477,8 @@
       "author": "@ziyou_666",
       "repo": "",
       "icons": [
-        "https://raw.githubusercontent.com/Yuheng0101/X/main/Assets/52pojie.png",
-        "https://raw.githubusercontent.com/Yuheng0101/X/main/Assets/52pojie.png"
+        "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/52pojie.png",
+        "https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/52pojie.png"
       ],
       "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/52pojie.js"
     }
