@@ -63,7 +63,7 @@
             ]
         },
         {
-            "id": "ziyou_666_mxbc",
+            "id": "ziyou_666.mxbc",
             "name": "蜜雪冰城",
             "author": "@ziyou_666",
             "repo": "",
@@ -86,7 +86,7 @@
             ]
         },
         {
-            "id": "ziyou_666_yuchenios",
+            "id": "ziyou_666.yuchenios",
             "name": "雨晨ios",
             "author": "@ziyou_666",
             "repo": "",
@@ -109,7 +109,7 @@
             ]
         },
         {
-            "id": "ziyou_666_aliyun",
+            "id": "ziyou_666.aliyun",
             "name": "阿里云盘",
             "author": "@ziyou_666",
             "repo": "",
@@ -132,8 +132,8 @@
             ]
         },
         {
-            "id": "ziyou_666_10086",
-            "name": "ziyou_666_移动余量",
+            "id": "ziyou_666.10086",
+            "name": "移动余量",
             "descs_html": [
                 "1. 填写手机号码",
                 "2. 添加对应插件/重写/模块",
@@ -216,7 +216,7 @@
             ]
         },
         {
-            "id": "ziyou_666_quark",
+            "id": "ziyou_666.quark",
             "name": "夸克网盘",
             "author": "@ziyou_666",
             "repo": "",
@@ -248,7 +248,7 @@
         },
     {
       "id": "ziyou_666.smzdm",
-      "name": "ziyou_666_什么值得买",
+      "name": "什么值得买",
       "keys": [
         "smzdm_cookie",
         "smzdm_cookie_id",
@@ -310,7 +310,7 @@
     },
     {
       "id": "ziyou_666.MiSport",
-      "name": "ziyou_666_小米运动",
+      "name": "小米运动",
       "author": "@ziyou_666",
       "script": "",
       "descs_html": [""],
@@ -358,7 +358,7 @@
     },
     {
       "id": "ziyou_666.mi.step",
-      "name": "ziyou_666_小米刷步",
+      "name": "小米刷步",
       "descs_html": [
         "<p style='margin-top:20px;font-size:16px;color:#a29bfe;text-align:center;'>刷步格言: 每天刷一刷, 健康第一, 步数第二</p>",
         "<p style='margin-left:10px;margin-top:30px;font-size:20px;font-weight:900;'>如需配置多账号务必看完以下说明<p>",
