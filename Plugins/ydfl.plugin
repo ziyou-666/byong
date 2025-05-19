@@ -1,0 +1,41 @@
+#阅读分流
+[Rule]
+
+#88小说网
+#DOMAIN-SUFFIX,88xiaoshuo.com,DIRECT
+#泡书吧
+#DOMAIN-SUFFIX,paoshuba.com, DIRECT
+#破万卷
+#DOMAIN-SUFFIX,powanjuan.cc, DIRECT
+#宙斯
+#DOMAIN-SUFFIX,zhsxs.com, DIRECT
+#天天看小说
+#DOMAIN-SUFFIX,cn.ttkan.co, DIRECT
+#玄幻文学网
+#DOMAIN-SUFFIX,xhwx6.com, DIRECT
+
+#百度云资源
+DOMAIN-SUFFIX,bdzy.com,策略选择
+#漫蛙
+DOMAIN-SUFFIX,manwa.me,策略选择
+#69成人小说网
+DOMAIN-SUFFIX,69story.com,策略选择
+#69书吧
+DOMAIN-SUFFIX,69shuba.com,策略选择
+#放肆文學
+DOMAIN-SUFFIX,funs.me,策略选择
+#耽美小說
+DOMAIN-SUFFIX,bookbl.com,策略选择
+#飘天文学网
+DOMAIN-SUFFIX,piaotian.com,策略选择
+#绅士会所
+DOMAIN-SUFFIX,hentaiclub.net,策略选择
+#红袖招
+DOMAIN-SUFFIX,hongxiuzhao.org,策略选择
+#小說狂人
+DOMAIN-SUFFIX,czbooks.net,策略选择
+#无尽和动漫
+DOMAIN-SUFFIX,hentaiser.com,策略选择
+#101看书
+DOMAIN-SUFFIX,101kanshu.com,策略选择
+
