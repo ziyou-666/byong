@@ -1,0 +1,23 @@
+#!desc = 小米运动.修改微信支付宝运动步数&下载4.6.0版小米运动APP&登入小米运动(登录方式必须是手机号码+密码(没有就用手机号码注册),下面的第三方账号(小米账号,Apple,微信)授权登录不行)&登录成功后在 我的->第三方接入->绑定支付宝,微信小米运动只要不退出登录，就会自动获取新的Token,即永久有效✳️小米刷步.🔗使用脚本前请先添加本脚本的BoxJS订阅 ➡️ https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json📌使用脚本前请先配置好小米账号和密码
+#!icon = https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/color.png
+
+[MITM]
+hostname = account.huami.com
+
+[Argument]
+CaptureToken = switch, false, true, tag = 捕获Token, desc = 此开关控制插件是否捕获Token
+
+CaptureXmyd = switch, false, true, tag = 小米运动, desc = 此开关控制插件是否开启小米运动任务
+
+CRONEXPXmyd = input, "21 7 * * *", tag = 定时参数, desc = 这里需要输入符合CRON表达式的参数
+
+CaptureXmsb = switch, false, true, tag = 小米刷步, desc = 此开关控制插件是否开启小米刷步任务
+
+CRONEXPXmsb = input, "21 7 * * *", tag = 定时参数, desc = 这里需要输入符合CRON表达式的参数
+
+[Script]
+http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=xmbs.js, requires-body=true, timeout=3600, tag=捕获Token, img-url=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/color.png, enable = {CaptureToken}
+
+cron {CRONEXPXmyd} script-path=xmbs.js, tag=小米运动, img-url=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/color.png, enable = {CaptureXmyd} , argument=[{account},{password}]
+
+cron {CRONEXPXmsb} script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/step.js, tag=小米刷步, img-url=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/mi/color.png, enable = {CaptureXmsb} , argument=[{account},{password}]

@@ -1,0 +1,46 @@
+/********************************
+#!name=爱阅跳广告
+#!desc=卡广告领奖励,请开启MITM
+#!icon = https://raw.githubusercontent.com/shidahuilang/shuyuan/refs/heads/shuyuan/icons/aiyueshuxiang.png
+#!date = 2024-01-13 18:00:00
+#!openUrl = https://wwi.lanzoup.com/i35Wk06q9oef
+*********Loon*********************
+[Script]
+http-response ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads.+ script-path=kp.js,requires-body=true,tag=爱阅跳广告直接领取, img-url=https://raw.githubusercontent.com/shidahuilang/shuyuan/refs/heads/shuyuan/icons/aiyueshuxiang.png
+
+[Mitm]
+hostname = api-access.pangolin-sdk-toutiao.com
+********QuantumultX***************
+
+#重写和分流都加入
+#🚫去广告规则必须让api-access.pangolin-sdk-toutiao.com这条规则不被禁止
+[rewrite_local]
+https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads.+ url script-response-body kp.js
+
+[MITM]
+hostname = api-access.pangolin-sdk-toutiao.com
+
+******************************/
+[General]
+skip-proxy = api-access.pangolin-sdk-toutiao.com
+[Rule]
+DOMAIN,api-access.pangolin-sdk-toutiao.com,DIRECT
+DOMAIN,open.e.kuaishou.com,REJECT-NO-DROP
+DOMAIN,video-dsp.pddpic.com,REJECT-NO-DROP
+DOMAIN,log-api.pangolin-sdk-toutiao.com,REJECT-NO-DROP
+DOMAIN,log-api.pangolin-sdk-toutiao-b.com,REJECT-NO-DROP
+DOMAIN,ether-pack.pangolin-sdk-toutiao.com,REJECT-NO-DROP
+DOMAIN,mssdk-bu.bytedance.com,REJECT-NO-DROP
+DOMAIN,images.pinduoduo.com,REJECT-NO-DROP
+DOMAIN,ic.snssdk.com,REJECT-NO-DROP
+DOMAIN,log.snssdk.com,REJECT-NO-DROP
+DOMAIN,log-hl.snssdk.com,REJECT-NO-DROP
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,gdt.qq.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,app-measurement.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,umeng.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,umengcloud.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,ctobsnssdk.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,ugdtimg.com,REJECT-NO-DROP
+DOMAIN-SUFFIX,doubleclick.net,REJECT-NO-DROP
