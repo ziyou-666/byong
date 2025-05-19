@@ -1,4 +1,3 @@
-/********************************
 #!name=爱阅跳广告
 #!desc=卡广告领奖励,需开启MITM🚫去广告规则必须让api-access.pangolin-sdk-toutiao.com这条规则不被禁止.[QX重写和分流都添加]
 #!icon = https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/aysx.png
@@ -11,7 +10,6 @@ http-response ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/
 [Mitm]
 hostname = api-access.pangolin-sdk-toutiao.com
 
-******************************/
 [General]
 skip-proxy = api-access.pangolin-sdk-toutiao.com
 [Rule]
