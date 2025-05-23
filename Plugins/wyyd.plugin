@@ -15,3 +15,4 @@ http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=wyyd
 
 [MITM]
 hostname = buy.itunes.apple.com
+https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/Scripts/wyyd.js
