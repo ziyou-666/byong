@@ -1,0 +1,17 @@
+#!desc = 万源阅读解锁订阅①支持App版本：1.0.7-1.1.0、②支持所有版本、1.1.0有几率一次性解锁[玄学]
+#!openUrl = https://wwol.lanzoum.com/i8e7t182ooqb
+#!loon_version = 3.2.6(821)
+#!date = 2023-8-15
+#!icon = https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/wyyd.png
+
+[Argument]
+wyyd1 = switch, false, true, tag = 解锁会员①, desc = 此开关控制插件①版本
+wyyd2 = switch, false, true, tag = 解锁会员②, desc = 此开关控制插件②版本
+
+[Script]
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=wyyd.js, requires-body=true, timeout=10, tag=解锁会员①, img-url=https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/wyyd.png, enable = {wyyd1} 
+
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=wyyd1.js, requires-body=true, timeout=10, tag=解锁会员②, img-url=https://raw.githubusercontent.com/ziyou-666/byong/refs/heads/main/App_icon/wyyd1.png, enable = {wyyd2} 
+
+[MITM]
+hostname = buy.itunes.apple.com
