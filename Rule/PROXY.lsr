@@ -1,0 +1,14 @@
+#------机场------
+DOMAIN,dash.f9vip.net,PROXY
+DOMAIN-SUFFIX,xn--48sp91b1l4avee.shop,PROXY
+DOMAIN-SUFFIX,xn--qk5apn.com,PROXY
+#EMO机场_300G/月
+DOMAIN,my.emovpn.xyz,PROXY
+#CAC机场-168G/月
+DOMAIN-SUFFIX,cacapex.com,PROXY
+#----------------
+
+#RSSHub
+DOMAIN,docs.rsshub.app,PROXY
+#仓库下载地址
+DOMAIN,raw.githubusercontent.com,PROXY
